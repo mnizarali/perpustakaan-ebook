@@ -38,7 +38,7 @@
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="event.html">Event</a></li>
                     <li><a href="artikel.html">Artikel</a></li>
-                    <li><a href="community.html">Community</a></li>
+                    <li><a href="community.html">LOGIN</a></li>
                 </ul>
             </nav>
 
@@ -65,14 +65,14 @@
         <section class="hero pt-15-vh ">
             <div class="container">
                 <div class="caption">
-                    <h1 class="stagger1">A platform for <span>Sharing , Learn & Discuss.</span></h1>
+                    <h1 class="stagger1">Better Solutions<span></br>
+                        For Your Choice Book</span></h1>
                     <p class="stagger1">
-                        Tingkatkan kemampuan Anda dengan kami untuk mendorong keterampilan Anda ke tingkat berikutnya,
-                        melalui kegiatan yang ada disini.
+                        we can access book for online and free!
                     </p>
 
                     <div class="cta stagger1">
-                        <a href="#fitur" class="btn btn-primary">Explore</a>
+                        <a href="#fitur" class="btn btn-primary"> Register </a>
                     </div>
                 </div>
                 <div class="img">
@@ -87,7 +87,7 @@
         <section class="containerFitur bg-agakGelap pt-50 pb-100" id="fitur">
             <div class="container">
                 <div class="title">
-                    <h1 class="stagger2">HMJ MI STMIK AKAKOM</h1>
+                    <h1 class="stagger2">About Us</h1>
                     <p class="stagger2">
                         "Organisasi yang komunikatif serta menjujung tinggi
                         profesionalitas dan kekeluargaan"
@@ -496,15 +496,15 @@
 
                 <div class="box">
                     <h2>Extra</h2>
-                    <a href="faq.html">FAQ</a>
-                    <a href="profil.html">Profil</a>
-                    <a href="about.html">About</a>
-                    <a href="galeri.html">Galeri</a>
-                    <a href="fasilitas.html">Fasilitas</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="visiMisi.html">Visi & Misi</a>
-                    <a href="PrivacyPolicy.html">Privacy Policy</a>
-                    <a href="TermsCondition.html">Terms & Condition</a>
+                    <a href="Landing/lain/faq.html">FAQ</a>
+                    <a href="Landing/lain/profil.html">Profil</a>
+                    <a href="Landing/lain/about.html">About</a>
+                    <a href="Landing/lain/galeri.html">Galeri</a>
+                    <a href="Landing/lain/fasilitas.html">Fasilitas</a>
+                    <a href="Landing/lain/contact.html">Contact</a>
+                    <a href="Landing/lain/visiMisi.html">Visi & Misi</a>
+                    <a href="Landing/lain/PrivacyPolicy.html">Privacy Policy</a>
+                    <a href="Landing/lain/TermsCondition.html">Terms & Condition</a>
                 </div>
 
 
