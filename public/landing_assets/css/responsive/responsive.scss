@@ -1,0 +1,1626 @@
+@media(min-width:1500px) {
+    .container {
+        max-width: 1500px;
+    }
+
+    article,
+    section,
+    footer,
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .containerClient {
+        border-top-right-radius: 100px;
+    }
+
+    .containerKerjasama .container {
+        border-top-left-radius: 100px;
+    }
+
+    .heroDetailKelas {
+
+        .container {
+
+            img {
+                max-height: 300px;
+            }
+        }
+    }
+
+    .contentArtikel {
+
+        .container {
+            width: 50%;
+        }
+    }
+
+
+
+    .bg-profil {
+        height: 40vh;
+    }
+
+
+
+    .profil {
+
+        .container {
+
+            .profil-kelas {
+                min-height: 300px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .heroDetailKelas {
+
+        .container {
+
+            .caption {
+
+                h1 {
+                    font-size: 2rem;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 1rem;
+                    line-height: 25px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .detailKelas {
+
+        .container {
+
+            .tentangKelas {
+                width: 60%;
+            }
+
+            .infoKelas {
+                width: 40%;
+            }
+        }
+    }
+
+
+    .artikel {
+
+        .container {
+
+            .perArtikel {
+                width: calc(92%/2);
+            }
+        }
+    }
+
+    .profil {
+
+        .container {
+
+            .profil-orang,
+            .profil-kelas {
+                width: 50%;
+            }
+        }
+    }
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota {
+                    width: calc(90%/3);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+
+    article,
+    header,
+    article,
+    section {
+        padding: 0 50px;
+    }
+
+    .containerKerjasama .container .caption {
+        width: 100%;
+        margin-right: 20px;
+    }
+
+    .hero {
+
+        .container {
+
+            .caption {
+                width: 50%;
+
+                h1 {
+                    font-size: 2.2rem;
+                    line-height: 40px;
+                }
+
+                p {
+                    font-size: 1rem;
+                    line-height: 25px;
+                }
+            }
+
+            .img {
+                width: 50%;
+            }
+        }
+    }
+
+    .containerAlesan {
+
+        .container {
+
+            .alesan {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .perAlesan {
+                    width: calc(90%/2);
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    .title {
+
+        h1 {
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 25px;
+        }
+    }
+
+    .containerFitur {
+
+        .fitur {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .perFitur {
+                width: calc(90%/2);
+            }
+        }
+    }
+
+
+    .containerFAQ {
+
+        .container .FAQ {
+            flex-wrap: wrap;
+
+            .kiri,
+            .kanan {
+                width: 100%;
+                margin: 0;
+
+            }
+        }
+    }
+
+    .containerSosmed {
+
+        .container {
+
+            .sosmed {
+
+                .perSosmed {
+                    width: calc(90%/2);
+                }
+            }
+        }
+    }
+
+    .contentArtikel {
+
+        .container {
+            width: 100%;
+
+            .thumbnail {
+                height: 350px;
+            }
+        }
+    }
+
+
+}
+
+@media(max-width:900px) {
+
+    article,
+    header,
+    section,
+    footer {
+        padding: 0 25px;
+    }
+
+    .kontak .container {
+        flex-wrap: wrap;
+    }
+
+    .kontak .container .caption,
+    .kontak .container img {
+        width: 100%;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 50px;
+    }
+
+    .kontak .container .caption {
+        margin-left: 0;
+    }
+
+    .kontak .container .caption h1 {
+        text-align: center;
+    }
+
+
+    .kontak .container {
+        flex-wrap: wrap;
+    }
+
+    .kontak .container .caption,
+    .kontak .container img {
+        width: 100%;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 50px;
+    }
+
+    .kontak .container .caption {
+        margin-left: 0;
+    }
+
+    .kontak .container .caption h1 {
+        text-align: center;
+    }
+
+    .comunity {
+
+        .container {
+
+            .perComunity {
+                width: calc(90%/2);
+            }
+        }
+    }
+
+    .hero {
+        height: 100%;
+        // min-height: 100vh;
+
+        .container {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+            // align-items: flex-end;
+            text-align: center;
+
+            .caption {
+                width: 100%;
+                margin: 0;
+                padding-bottom: 100px;
+            }
+
+            .img {
+                width: 300px;
+                height: 300px;
+                margin: 0;
+            }
+        }
+    }
+
+    .Event .container {
+
+        .sorting {
+            width: 40%;
+        }
+
+        .program {
+            width: 60%;
+
+            .masihBerlangsung .perMasihBerlangsung {
+                width: 100%;
+                margin: 20px 0;
+            }
+        }
+    }
+
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media(max-width:800px) {
+
+
+    .containerClient {
+        border-top-left-radius: 0;
+    }
+
+    .containerClient .clientTitle {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .containerClient .clientTitle h2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .containerClient .clientTitle p {
+        width: 100%;
+    }
+
+    .containerKerjasama {
+        padding: 0 25px;
+        background-color: var(--hero);
+    }
+
+    .containerKerjasama .container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 50px 0;
+        border-top-right-radius: 0;
+        background-color: transparent;
+    }
+
+    .containerKerjasama .container .caption {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .footer {
+        margin: 0;
+        background-color: var(--hero);
+    }
+
+    .footer .container {
+        width: 100%;
+        padding: 0 15px;
+        background-color: transparent;
+    }
+
+    footer {
+        background-color: var(--hero);
+    }
+
+    footer .container {
+        width: 100%;
+        font-size: 1rem;
+        border-radius: 0;
+        padding-left: 0;
+        justify-content: center;
+        text-align: center;
+        background-color: transparent;
+    }
+
+
+    .galeri {
+
+        .perGaleri {
+            width: calc(100%/3);
+            height: 200px;
+        }
+    }
+
+    .heroDetailKelas {
+        height: 100%;
+
+        .container {
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap-reverse;
+
+            .caption {
+                width: 100%;
+                text-align: center;
+
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    a {
+                        width: 100%;
+                    }
+                }
+
+
+            }
+
+
+            img {
+                width: 80%;
+                height: 300px;
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+
+    .detailKelas {
+
+        .container {
+            flex-wrap: wrap;
+
+            .tentangKelas {
+                width: 100%;
+                margin-right: 0;
+
+
+                .perTentangKelas {
+
+                    p {
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            .infoKelas {
+                width: 100%;
+            }
+        }
+    }
+
+    .contentArtikel {
+
+        .container {
+
+            .titleArtikel {
+                font-size: 1.7rem;
+                line-height: 35px;
+            }
+
+            .mainArtikel {
+
+                h3 {
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+
+
+
+
+    .profil {
+
+        .container {
+            flex-wrap: wrap;
+
+            .profil-orang,
+            .profil-kelas {
+                width: 100%;
+            }
+
+            .profil-kelas {
+                margin-top: 20px;
+                margin-left: 0;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+
+    .bg-profil {
+
+        .container {
+            background-image: url("../../img/profil/profile-banner-mobile.png");
+
+        }
+    }
+
+
+}
+
+
+@media(max-width:700px) {
+    //ilang nav
+
+    header .container {
+        nav {
+            display: none;
+        }
+
+        .menu {
+            display: flex;
+        }
+    }
+
+    .containerNavMobile {
+        display: flex;
+    }
+
+
+    .modalContainer {
+
+        .modal {
+            width: 100%;
+        }
+    }
+
+
+    .galeri {
+
+        .perGaleri {
+            height: 150px;
+        }
+    }
+
+    .heroDetailKelas {
+
+        .container {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .containerAlesan {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: var(--biru-cerah);
+
+        .container {
+            padding: 0;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .alesan {
+                padding-top: 25px;
+
+                .perAlesan {
+                    width: 100%;
+                    margin: 10px 0;
+                    padding: 30px 20px;
+                }
+            }
+        }
+    }
+
+    .containerFitur {
+
+        .fitur {
+
+            .perFitur {
+                width: 100%;
+                margin: 10px 0;
+                padding: 30px;
+            }
+        }
+    }
+
+
+
+    .artikel {
+
+        .container {
+
+            .perArtikel {
+                width: 100%;
+                margin: 10px 0;
+
+                img {
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+
+    .Event .container {
+
+        .sorting {
+            width: 0%;
+            display: none;
+        }
+
+        .program {
+            width: 100%;
+            margin: 0;
+
+            .keteranganProgram {
+                display: flex;
+                justify-content: space-between;
+                position: static;
+                text-align: center;
+            }
+
+            .sorting {
+                display: flex;
+            }
+
+
+        }
+    }
+
+    .contentArtikel {
+
+        .container {
+
+            .thumbnail {
+                height: 300px;
+            }
+        }
+    }
+
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota {
+                    width: calc(90%/2);
+
+                    img {
+
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media(max-width:650px) {
+    .title p {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+
+    .title h1 {
+        font-size: 1.7rem;
+        line-height: 40px;
+    }
+
+}
+
+@media(max-width:600px) {
+    .containerNavMobile .navMobile {
+        width: 70%;
+    }
+
+    .footer .box {
+        margin: 1rem 0;
+    }
+
+    .kontak .container img {
+        height: 30rem;
+        margin-bottom: 0;
+    }
+
+    .galeri {
+
+        .perGaleri {
+            width: calc(100%/2);
+            height: 200px;
+        }
+    }
+
+
+    .comunity {
+
+        .container {
+
+            .perComunity {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    }
+
+
+    .artikel {
+
+        .container {
+
+            .perArtikel {
+
+                img {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+    .containerSosmed {
+
+        .container {
+
+            .sosmed {
+
+                .perSosmed {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width:500px) {
+
+
+    article,
+    header,
+    section,
+    footer,
+    .containerKerjasama {
+        padding: 0 15px;
+    }
+
+.footer .container {
+        padding: 0;
+    }
+
+    .title p {
+        font-size: 1rem;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .containerClient .clientTitle p {
+        font-size: 1.2rem;
+    }
+
+
+    .containerKerjasama .container .caption h2 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+
+    .containerKerjasama .container .caption p {
+        font-size: 1.1rem;
+    }
+
+    .kontak .container img {
+        height: 20rem;
+        margin-bottom: 10px;
+    }
+
+
+    .perFAQ {
+
+        .pertanyaan {
+            padding: 20px 10px;
+
+            .icon {
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+
+    .heroDetailKelas {
+
+        .container {
+
+            .caption {
+
+                h1 {
+                    line-height: 40px;
+                    // font-size: .9rem;
+                }
+            }
+        }
+    }
+
+    .detailKelas {
+
+        .container {
+
+            .tentangKelas {
+
+                .perTentangKelas {
+                    padding: 20px 10px;
+
+                    p {
+                        margin: 10px 0;
+                        // line-height: 25px;
+                    }
+                }
+            }
+
+            .infoKelas {
+                .perInfoKelas {
+                    padding: 20px 10px;
+                }
+            }
+        }
+    }
+
+    .hero {
+        height: 100vh;
+
+        .container {
+
+            .caption {
+                padding-bottom: 50px;
+
+                h1 {
+                    font-size: 2rem;
+                    line-height: 35px;
+                }
+            }
+
+            .img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+    .containerAlesan {
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+        .container {
+
+            .alesan {
+
+                .perAlesan {
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .containerFitur {
+
+        .fitur {
+
+            .perFitur {
+                padding: 20px;
+            }
+        }
+    }
+
+    .artikel {
+
+        .container {
+
+            .perArtikel {
+
+                img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+
+
+    .contentArtikel {
+
+        .container {
+
+            .titleArtikel {
+                font-size: 1.4rem;
+                line-height: 30px;
+            }
+
+            .thumbnail {
+                height: 250px;
+                margin-bottom: 0;
+            }
+
+            .mainArtikel {
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:450px) {
+    .galeri {
+
+        .perGaleri {
+            height: 150px;
+        }
+    }
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota {
+                    width: 100%;
+                    margin: 10px 0;
+
+                    img {
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:400px) {
+    .containerNavMobile .navMobile {
+        width: 80%;
+    }
+
+    .containerKerjasama .container .caption h2,
+    .containerClient .clientTitle h2 {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+
+
+    .containerKerjasama .container .caption p,
+    .containerClient .clientTitle p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .footer .box h2 {
+        font-size: 1.7rem;
+    }
+
+    .footer .box .sosmed .perSosmed {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        font-size: 1.2rem;
+        margin: 10px;
+        border-radius: 50%;
+        background: rgb(255, 160, 17);
+    }
+
+    .kontak .container img {
+        height: 15rem;
+    }
+
+    .kontak .container .caption h1 {
+        font-size: 1.9rem;
+    }
+
+    .kontak .container .caption textarea,
+    .kontak .container .caption input {
+        font-size: .9rem;
+    }
+
+
+    .galeri {
+
+        .perGaleri {
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+    .heroDetailKelas {
+
+        .container {
+
+            .caption {
+
+                h1 {
+                    line-height: 30px;
+                    font-size: 1.7rem;
+                }
+            }
+
+            img {
+                height: 250px;
+            }
+        }
+    }
+
+    .hero {
+        padding-top: 0;
+
+        .container {
+
+            .caption {
+                padding-bottom: 0;
+
+                h1 {
+                    font-size: 1.7rem;
+                    line-height: 35px;
+                }
+
+                a {
+                    width: 100%;
+                }
+            }
+
+            .img {
+                display: none;
+            }
+        }
+    }
+
+    .containerFitur {
+
+        .fitur {
+
+            .perFitur {
+
+                h2 {
+                    margin: 20px 0 10px 0;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+
+    .artikel {
+
+        .container {
+
+            .perArtikel {
+
+                img {
+                    height: 170px;
+                }
+
+                h2 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+    .Event .container {
+
+        .program {
+
+
+            .keteranganProgram span {
+                padding: 0 5px;
+                font-size: .9rem;
+            }
+
+            .sorting {
+
+                .urutkan {
+
+                    h2 {
+                        margin-right: 30px;
+                    }
+                }
+            }
+
+
+            .masihBerlangsung .perMasihBerlangsung {
+
+                h3,
+                h2 {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    font-size: .9rem;
+                }
+
+                img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+
+
+    .contentArtikel {
+
+        .container {
+
+            .thumbnail {
+                height: 220px;
+            }
+
+            .mainArtikel {
+                p {
+                    line-height: 25px;
+                }
+
+                ul li {
+                    padding: 3px 0;
+                }
+            }
+        }
+    }
+
+
+
+
+
+    .profil {
+
+        .container {
+
+            .profil-kelas {
+
+                .codeBadgeKosong {
+
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+
+                    h1 {
+                        font-size: 1.3rem;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media(max-width:350px) {
+    .containerNavMobile .navMobile {
+        width: 100%;
+    }
+
+
+    footer .container p {
+        font-size: .9rem;
+    }
+
+    footer .container p span {
+        font-size: 1rem;
+    }
+
+    .perFAQ {
+
+        .jawaban {
+            padding: 10px;
+        }
+    }
+
+    .heroDetailKelas {
+
+        .container {
+
+            .caption {
+
+                p {
+                    font-size: .9rem;
+                }
+
+            }
+
+
+            img {
+                height: 200px;
+            }
+
+        }
+    }
+
+    .hero {
+
+
+        .container {
+
+            .caption {
+
+                h1 {
+                    font-size: 1.5rem;
+                    line-height: 30px;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-size: .9rem;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+
+
+    .containerAlesan {
+
+        .container {
+
+            h1 {
+                font-size: 1.2rem;
+            }
+
+            .alesan {
+                padding-top: 10px;
+
+                .perAlesan {
+                    padding: 20px 10px;
+
+                    h2 {
+                        font-size: 1.1rem;
+                    }
+
+                    p {
+                        font-weight: 450;
+                        font-size: .8rem;
+                    }
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .title {
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+
+    .Event .container {
+
+        .program {
+
+            .masihBerlangsung .perMasihBerlangsung {
+
+                h3,
+                h2 {
+                    font-size: 1.1rem;
+                    line-height: 25px;
+                }
+
+                img {
+                    height: 150px;
+                }
+
+            }
+        }
+    }
+
+
+
+    .contentArtikel {
+
+        label h2 {
+            font-size: 1.2rem;
+        }
+
+        .container {
+
+            .titleArtikel {
+                font-size: 1.2rem;
+                line-height: 27px;
+            }
+
+
+            .writer {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .komentar {
+
+        .perKomentar {
+
+            .profil {
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .nama {
+                    margin-left: 10px;
+
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+
+                    p {
+                        font-size: .8rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .profil {
+
+        .container {
+
+            .profil-orang {
+
+                .icon {
+                    padding: 5px 10px;
+                    font-size: .8rem;
+                }
+
+                .detail-orang {
+                    margin-top: -60px;
+
+                    img {
+                        width: 100px;
+                        height: 100px;
+                        margin-bottom: 10px;
+                    }
+
+                    h2 {
+                        font-size: 1.3rem;
+                    }
+
+                    .email {
+                        font-size: .9rem;
+                    }
+
+                    .sekolah {
+                        font-size: 1rem;
+
+                    }
+
+
+                    .tentangSaya {
+
+                        p {
+                            font-size: .9rem;
+                            line-height: 20px;
+                        }
+                    }
+
+                    a {
+                        padding: 8px;
+                    }
+                }
+            }
+
+            .profil-kelas {
+
+                .codeBadgeKosong {
+
+                    p {
+                        font-size: .9rem;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota img {
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+}
+
+@media(max-width:300px) {
+    .footer .box p {
+        font-size: .8rem;
+        line-height: 20px;
+    }
+
+    .footer .box .sosmed {
+        flex-wrap: wrap;
+    }
+
+    .footer .box .sosmed .perSosmed {
+        margin: 10px 5px;
+    }
+
+    .kontak .container img {
+        height: 10rem;
+    }
+
+    .kontak .container .caption h1 {
+        font-size: 1.6rem;
+    }
+
+    .kontak .container .caption label {
+        font-size: .95rem;
+    }
+
+    .kontak .container .caption textarea,
+    .kontak .container .caption input {
+        padding-left: 10px;
+        font-size: .8rem;
+    }
+
+    .kontak .container .caption button {
+        width: 100%;
+    }
+
+
+    .galeri {
+
+        .perGaleri {
+            height: 150px;
+        }
+    }
+
+    .detailKelas {
+
+        .container {
+
+            .tentangKelas {
+
+                .perTentangKelas {
+
+                    ul li {
+                        padding: 5px;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+    .containerFitur {
+
+        .fitur {
+
+            .perFitur {
+
+                p {
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+
+    .artikel {
+
+        .container {
+
+            .perArtikel {
+
+                img {
+                    height: 150px;
+                }
+
+                h2 {
+                    font-size: 1.1rem;
+                }
+
+                p,
+                button {
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+
+    .Event .container .program .sorting {
+        flex-wrap: wrap;
+
+        .filter {
+            flex-direction: row-reverse;
+        }
+
+        .filter,
+        .urutkan {
+            width: 100%;
+            margin: 5px 0;
+        }
+    }
+
+
+    .containerAnggota {
+
+        .container {
+
+            .anggota {
+
+                .perAnggota img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

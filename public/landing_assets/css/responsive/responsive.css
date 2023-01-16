@@ -1,0 +1,904 @@
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1500px;
+  }
+  article,
+  section,
+  footer,
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .containerClient {
+    border-top-right-radius: 100px;
+  }
+  .containerKerjasama .container {
+    border-top-left-radius: 100px;
+  }
+  .heroDetailKelas .container img {
+    max-height: 300px;
+  }
+  .contentArtikel .container {
+    width: 50%;
+  }
+  .bg-profil {
+    height: 40vh;
+  }
+  .profil .container .profil-kelas {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .heroDetailKelas .container .caption h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .heroDetailKelas .container .caption p {
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .detailKelas .container .tentangKelas {
+    width: 60%;
+  }
+  .detailKelas .container .infoKelas {
+    width: 40%;
+  }
+  .artikel .container .perArtikel {
+    width: calc(92%/2);
+  }
+  .profil .container .profil-orang,
+  .profil .container .profil-kelas {
+    width: 50%;
+  }
+  .containerAnggota .container .anggota .perAnggota {
+    width: calc(90%/3);
+  }
+}
+
+@media (max-width: 1000px) {
+  article,
+  header,
+  article,
+  section {
+    padding: 0 50px;
+  }
+  .containerKerjasama .container .caption {
+    width: 100%;
+    margin-right: 20px;
+  }
+  .hero .container .caption {
+    width: 50%;
+  }
+  .hero .container .caption h1 {
+    font-size: 2.2rem;
+    line-height: 40px;
+  }
+  .hero .container .caption p {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .hero .container .img {
+    width: 50%;
+  }
+  .containerAlesan .container .alesan {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .containerAlesan .container .alesan .perAlesan {
+    width: calc(90%/2);
+    margin: 10px;
+  }
+  .title h1 {
+    font-size: 1.7rem;
+  }
+  .title p {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .containerFitur .fitur {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .containerFitur .fitur .perFitur {
+    width: calc(90%/2);
+  }
+  .containerFAQ .container .FAQ {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .containerFAQ .container .FAQ .kiri,
+  .containerFAQ .container .FAQ .kanan {
+    width: 100%;
+    margin: 0;
+  }
+  .containerSosmed .container .sosmed .perSosmed {
+    width: calc(90%/2);
+  }
+  .contentArtikel .container {
+    width: 100%;
+  }
+  .contentArtikel .container .thumbnail {
+    height: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  article,
+  header,
+  section,
+  footer {
+    padding: 0 25px;
+  }
+  .kontak .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .kontak .container .caption,
+  .kontak .container img {
+    width: 100%;
+  }
+  .kontak .container img {
+    height: 30rem;
+    margin-bottom: 50px;
+  }
+  .kontak .container .caption {
+    margin-left: 0;
+  }
+  .kontak .container .caption h1 {
+    text-align: center;
+  }
+  .kontak .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .kontak .container .caption,
+  .kontak .container img {
+    width: 100%;
+  }
+  .kontak .container img {
+    height: 30rem;
+    margin-bottom: 50px;
+  }
+  .kontak .container .caption {
+    margin-left: 0;
+  }
+  .kontak .container .caption h1 {
+    text-align: center;
+  }
+  .comunity .container .perComunity {
+    width: calc(90%/2);
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero .container {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .hero .container .caption {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+  .hero .container .img {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+  }
+  .Event .container .sorting {
+    width: 40%;
+  }
+  .Event .container .program {
+    width: 60%;
+  }
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .containerAnggota .container .anggota .perAnggota img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .containerClient {
+    border-top-left-radius: 0;
+  }
+  .containerClient .clientTitle {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .containerClient .clientTitle h2 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .containerClient .clientTitle p {
+    width: 100%;
+  }
+  .containerKerjasama {
+    padding: 0 25px;
+    background-color: var(--hero);
+  }
+  .containerKerjasama .container {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding: 50px 0;
+    border-top-right-radius: 0;
+    background-color: transparent;
+  }
+  .containerKerjasama .container .caption {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+  .footer {
+    margin: 0;
+    background-color: var(--hero);
+  }
+  .footer .container {
+    width: 100%;
+    padding: 0 15px;
+    background-color: transparent;
+  }
+  footer {
+    background-color: var(--hero);
+  }
+  footer .container {
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 0;
+    padding-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    background-color: transparent;
+  }
+  .galeri .perGaleri {
+    width: calc(100%/3);
+    height: 200px;
+  }
+  .heroDetailKelas {
+    height: 100%;
+  }
+  .heroDetailKelas .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .heroDetailKelas .container .caption {
+    width: 100%;
+    text-align: center;
+  }
+  .heroDetailKelas .container .caption .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .heroDetailKelas .container .caption .btn a {
+    width: 100%;
+  }
+  .heroDetailKelas .container img {
+    width: 80%;
+    height: 300px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .detailKelas .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .detailKelas .container .tentangKelas {
+    width: 100%;
+    margin-right: 0;
+  }
+  .detailKelas .container .tentangKelas .perTentangKelas p {
+    line-height: 25px;
+  }
+  .detailKelas .container .infoKelas {
+    width: 100%;
+  }
+  .contentArtikel .container .titleArtikel {
+    font-size: 1.7rem;
+    line-height: 35px;
+  }
+  .contentArtikel .container .mainArtikel h3 {
+    font-size: 1.3rem;
+  }
+  .profil .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .profil .container .profil-orang,
+  .profil .container .profil-kelas {
+    width: 100%;
+  }
+  .profil .container .profil-kelas {
+    margin-top: 20px;
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+  .bg-profil .container {
+    background-image: url("../../img/profil/profile-banner-mobile.png");
+  }
+}
+
+@media (max-width: 700px) {
+  header .container nav {
+    display: none;
+  }
+  header .container .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .containerNavMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .modalContainer .modal {
+    width: 100%;
+  }
+  .galeri .perGaleri {
+    height: 150px;
+  }
+  .heroDetailKelas .container img {
+    width: 100%;
+  }
+  .containerAlesan {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--biru-cerah);
+  }
+  .containerAlesan .container {
+    padding: 0;
+  }
+  .containerAlesan .container h1 {
+    font-size: 1.5rem;
+  }
+  .containerAlesan .container .alesan {
+    padding-top: 25px;
+  }
+  .containerAlesan .container .alesan .perAlesan {
+    width: 100%;
+    margin: 10px 0;
+    padding: 30px 20px;
+  }
+  .containerFitur .fitur .perFitur {
+    width: 100%;
+    margin: 10px 0;
+    padding: 30px;
+  }
+  .artikel .container .perArtikel {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .artikel .container .perArtikel img {
+    height: 300px;
+  }
+  .Event .container .sorting {
+    width: 0%;
+    display: none;
+  }
+  .Event .container .program {
+    width: 100%;
+    margin: 0;
+  }
+  .Event .container .program .keteranganProgram {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: static;
+    text-align: center;
+  }
+  .Event .container .program .sorting {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contentArtikel .container .thumbnail {
+    height: 300px;
+  }
+  .containerAnggota .container .anggota .perAnggota {
+    width: calc(90%/2);
+  }
+  .containerAnggota .container .anggota .perAnggota img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 650px) {
+  .title p {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .title h1 {
+    font-size: 1.7rem;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerNavMobile .navMobile {
+    width: 70%;
+  }
+  .footer .box {
+    margin: 1rem 0;
+  }
+  .kontak .container img {
+    height: 30rem;
+    margin-bottom: 0;
+  }
+  .galeri .perGaleri {
+    width: calc(100%/2);
+    height: 200px;
+  }
+  .comunity .container .perComunity {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .artikel .container .perArtikel img {
+    height: 250px;
+  }
+  .containerSosmed .container .sosmed .perSosmed {
+    width: 100%;
+  }
+  .containerAnggota .container .anggota .perAnggota img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  article,
+  header,
+  section,
+  footer,
+  .containerKerjasama {
+    padding: 0 15px;
+  }
+  .footer .container {
+    padding: 0;
+  }
+  .title p {
+    font-size: 1rem;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  .containerClient .clientTitle p {
+    font-size: 1.2rem;
+  }
+  .containerKerjasama .container .caption h2 {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+  .containerKerjasama .container .caption p {
+    font-size: 1.1rem;
+  }
+  .kontak .container img {
+    height: 20rem;
+    margin-bottom: 10px;
+  }
+  .perFAQ .pertanyaan {
+    padding: 20px 10px;
+  }
+  .perFAQ .pertanyaan .icon {
+    font-size: 1.2rem;
+  }
+  .heroDetailKelas .container .caption h1 {
+    line-height: 40px;
+  }
+  .detailKelas .container .tentangKelas .perTentangKelas {
+    padding: 20px 10px;
+  }
+  .detailKelas .container .tentangKelas .perTentangKelas p {
+    margin: 10px 0;
+  }
+  .detailKelas .container .infoKelas .perInfoKelas {
+    padding: 20px 10px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .hero .container .caption {
+    padding-bottom: 50px;
+  }
+  .hero .container .caption h1 {
+    font-size: 2rem;
+    line-height: 35px;
+  }
+  .hero .container .img {
+    width: 200px;
+    height: 200px;
+  }
+  .containerAlesan {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .containerAlesan .container .alesan .perAlesan img {
+    width: 50px;
+    height: 50px;
+  }
+  .containerFitur .fitur .perFitur {
+    padding: 20px;
+  }
+  .artikel .container .perArtikel img {
+    height: 200px;
+  }
+  .contentArtikel .container .titleArtikel {
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+  .contentArtikel .container .thumbnail {
+    height: 250px;
+    margin-bottom: 0;
+  }
+  .contentArtikel .container .mainArtikel h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .galeri .perGaleri {
+    height: 150px;
+  }
+  .containerAnggota .container .anggota .perAnggota {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .containerAnggota .container .anggota .perAnggota img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .containerNavMobile .navMobile {
+    width: 80%;
+  }
+  .containerKerjasama .container .caption h2,
+  .containerClient .clientTitle h2 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .containerKerjasama .container .caption p,
+  .containerClient .clientTitle p {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+  .footer .box h2 {
+    font-size: 1.7rem;
+  }
+  .footer .box .sosmed .perSosmed {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 50%;
+    background: #ffa011;
+  }
+  .kontak .container img {
+    height: 15rem;
+  }
+  .kontak .container .caption h1 {
+    font-size: 1.9rem;
+  }
+  .kontak .container .caption textarea,
+  .kontak .container .caption input {
+    font-size: .9rem;
+  }
+  .galeri .perGaleri {
+    width: 100%;
+    height: 200px;
+  }
+  .heroDetailKelas .container .caption h1 {
+    line-height: 30px;
+    font-size: 1.7rem;
+  }
+  .heroDetailKelas .container img {
+    height: 250px;
+  }
+  .hero {
+    padding-top: 0;
+  }
+  .hero .container .caption {
+    padding-bottom: 0;
+  }
+  .hero .container .caption h1 {
+    font-size: 1.7rem;
+    line-height: 35px;
+  }
+  .hero .container .caption a {
+    width: 100%;
+  }
+  .hero .container .img {
+    display: none;
+  }
+  .containerFitur .fitur .perFitur h2 {
+    margin: 20px 0 10px 0;
+    font-size: 1.2rem;
+  }
+  .artikel .container .perArtikel img {
+    height: 170px;
+  }
+  .artikel .container .perArtikel h2 {
+    font-size: 1.2rem;
+  }
+  .Event .container .program .keteranganProgram span {
+    padding: 0 5px;
+    font-size: .9rem;
+  }
+  .Event .container .program .sorting .urutkan h2 {
+    margin-right: 30px;
+  }
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung h3,
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung h2 {
+    font-size: 1.2rem;
+  }
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung p {
+    font-size: .9rem;
+  }
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung img {
+    height: 200px;
+  }
+  .contentArtikel .container .thumbnail {
+    height: 220px;
+  }
+  .contentArtikel .container .mainArtikel p {
+    line-height: 25px;
+  }
+  .contentArtikel .container .mainArtikel ul li {
+    padding: 3px 0;
+  }
+  .profil .container .profil-kelas .codeBadgeKosong img {
+    width: 70px;
+    height: 70px;
+  }
+  .profil .container .profil-kelas .codeBadgeKosong h1 {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 350px) {
+  .containerNavMobile .navMobile {
+    width: 100%;
+  }
+  footer .container p {
+    font-size: .9rem;
+  }
+  footer .container p span {
+    font-size: 1rem;
+  }
+  .perFAQ .jawaban {
+    padding: 10px;
+  }
+  .heroDetailKelas .container .caption p {
+    font-size: .9rem;
+  }
+  .heroDetailKelas .container img {
+    height: 200px;
+  }
+  .hero .container .caption h1 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .hero .container .caption p {
+    font-size: .9rem;
+    margin: 20px 0;
+  }
+  .containerAlesan .container h1 {
+    font-size: 1.2rem;
+  }
+  .containerAlesan .container .alesan {
+    padding-top: 10px;
+  }
+  .containerAlesan .container .alesan .perAlesan {
+    padding: 20px 10px;
+  }
+  .containerAlesan .container .alesan .perAlesan h2 {
+    font-size: 1.1rem;
+  }
+  .containerAlesan .container .alesan .perAlesan p {
+    font-weight: 450;
+    font-size: .8rem;
+  }
+  .containerAlesan .container .alesan .perAlesan img {
+    width: 40px;
+    height: 40px;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .title p {
+    font-size: 1rem;
+  }
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung h3,
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung h2 {
+    font-size: 1.1rem;
+    line-height: 25px;
+  }
+  .Event .container .program .masihBerlangsung .perMasihBerlangsung img {
+    height: 150px;
+  }
+  .contentArtikel label h2 {
+    font-size: 1.2rem;
+  }
+  .contentArtikel .container .titleArtikel {
+    font-size: 1.2rem;
+    line-height: 27px;
+  }
+  .contentArtikel .container .writer {
+    font-size: .8rem;
+  }
+  .komentar .perKomentar .profil img {
+    width: 40px;
+    height: 40px;
+  }
+  .komentar .perKomentar .profil .nama {
+    margin-left: 10px;
+  }
+  .komentar .perKomentar .profil .nama h3 {
+    font-size: 1.2rem;
+  }
+  .komentar .perKomentar .profil .nama p {
+    font-size: .8rem;
+  }
+  .profil .container .profil-orang .icon {
+    padding: 5px 10px;
+    font-size: .8rem;
+  }
+  .profil .container .profil-orang .detail-orang {
+    margin-top: -60px;
+  }
+  .profil .container .profil-orang .detail-orang img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .profil .container .profil-orang .detail-orang h2 {
+    font-size: 1.3rem;
+  }
+  .profil .container .profil-orang .detail-orang .email {
+    font-size: .9rem;
+  }
+  .profil .container .profil-orang .detail-orang .sekolah {
+    font-size: 1rem;
+  }
+  .profil .container .profil-orang .detail-orang .tentangSaya p {
+    font-size: .9rem;
+    line-height: 20px;
+  }
+  .profil .container .profil-orang .detail-orang a {
+    padding: 8px;
+  }
+  .profil .container .profil-kelas .codeBadgeKosong p {
+    font-size: .9rem;
+    line-height: 20px;
+  }
+  .containerAnggota .container .anggota .perAnggota img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  .footer .box p {
+    font-size: .8rem;
+    line-height: 20px;
+  }
+  .footer .box .sosmed {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer .box .sosmed .perSosmed {
+    margin: 10px 5px;
+  }
+  .kontak .container img {
+    height: 10rem;
+  }
+  .kontak .container .caption h1 {
+    font-size: 1.6rem;
+  }
+  .kontak .container .caption label {
+    font-size: .95rem;
+  }
+  .kontak .container .caption textarea,
+  .kontak .container .caption input {
+    padding-left: 10px;
+    font-size: .8rem;
+  }
+  .kontak .container .caption button {
+    width: 100%;
+  }
+  .galeri .perGaleri {
+    height: 150px;
+  }
+  .detailKelas .container .tentangKelas .perTentangKelas ul li {
+    padding: 5px;
+  }
+  .containerFitur .fitur .perFitur p {
+    font-size: .9rem;
+  }
+  .artikel .container .perArtikel img {
+    height: 150px;
+  }
+  .artikel .container .perArtikel h2 {
+    font-size: 1.1rem;
+  }
+  .artikel .container .perArtikel p,
+  .artikel .container .perArtikel button {
+    font-size: .9rem;
+  }
+  .Event .container .program .sorting {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Event .container .program .sorting .filter {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .Event .container .program .sorting .filter,
+  .Event .container .program .sorting .urutkan {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .containerAnggota .container .anggota .perAnggota img {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
